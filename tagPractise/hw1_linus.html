@@ -5,21 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linus Torvald - HW2</title>
-
+    <!-- Adding a Favicon -->
+    <link rel="icon" type="image/x-icon" href="logo.svg"
     <style>
         html {
             scroll-behavior: smooth;
+        }
+        aside{
+            background-color: aqua;
+            width: 40%;
+            float: right;
+            font-style: italic;
         }
     </style>
 
 </head>
 
 <body>
-    <h1>Linus Torvalds</h1>
+    <header>
+        <h1>Linus Torvalds</h1>
+        <p>The Creator of Linux</p>
+    </header>
 
-    <p>The Creator of Linux</p>
-
-    <a href="#Resources">Go to Resources</a>
+    <nav>
+        <a href="#Resources">Go to Resources</a>
+        <br>
+        <a href="#Bio">Go to Biography</a>
+        <br>
+        <a href="#Ach">Go to Achievements</a>
+    </nav>
 
     <figure>
         <img src="linus.jpeg" alt="Linux founder">
@@ -27,7 +41,7 @@
     </figure>
 
     <section>
-        <h2>Biography</h2>
+        <h2 id="Bio">Biography</h2>
 
         <p>Linus Torvalds is a Finnish-American software engineer who is the creator and principal developer of the
             Linux
@@ -41,8 +55,16 @@
         </p>
     </section>
 
+    <aside>
+
+        <p>Linus Torvalds is a Finnish-American software engineer who is the creator and principal developer of the
+            Linux
+            kernel, which is the kernel for a number of operating systems. He also created the version control system
+            Git.</p>
+
+    </aside>
     <section>
-        <h2>Achievements</h2>
+        <h2 id="Ach">Achievements</h2>
 
         <ul>
             <li><b>1991 - </b> Created the Linux kernel and the version control system Git.</li>
@@ -80,6 +102,10 @@
                 </a> </li>
         </ul>
     </section>
+
+    <footer>
+        <p>This is Footer</p>
+    </footer>
 </body>
 
 </html>
