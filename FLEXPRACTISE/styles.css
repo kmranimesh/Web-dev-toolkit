@@ -1,0 +1,38 @@
+.container{
+    height: 400px;
+    border: 2px solid green;
+    display: flex;
+    /* By default, flex direction is in row as it is the main axis */
+
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    flex-wrap: wrap;
+
+    /* flex-wrap: nowrap; default value is no wrap -> this does not keeps in a/c to width */
+
+    /* flex-wrap: wrap-reverse; In this, after squeezing, the last element goes upward */
+
+    /* flex-flow: wrap row-reverse; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end;
+    justify-content: center;
+    /* justify-content: space-around; */
+    justify-content: center;
+    /* justify-content: space-between; */
+
+    /* align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;  */
+    align-items: center;
+
+    gap: 10px;
+}
+.box{
+     border: 1px solid brown;
+     background-color: aqua;
+     width: 50px;
+}
