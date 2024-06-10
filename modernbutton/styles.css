@@ -22,7 +22,7 @@
     z-index: 1;
 }
 
-.btn-pink::before{
+.btn-pink::before {
     content: "";
     background-color: #1f1f1f;
     position: absolute;
@@ -32,10 +32,10 @@
     bottom: 0;
     transform: scaleX(0);
     transform-origin: left;
-    transition: 0.8s;
-    z-index: -1;
+    transition: 0.8 s;
+    =z-index: -1;
 }
 
-.btn-pink:hover::before{
+.btn-pink:hover::before {
     transform: scaleX(1);
 }
