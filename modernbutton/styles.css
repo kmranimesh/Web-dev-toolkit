@@ -33,7 +33,7 @@
     transform: scaleX(0);
     transform-origin: left;
     transition: 0.8 s;
-    =z-index: -1;
+    z-index: -1;
 }
 
 .btn-pink:hover::before {
